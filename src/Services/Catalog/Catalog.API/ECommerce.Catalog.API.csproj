@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Aspire.StackExchange.Redis" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catalog.Application\ECommerce.Catalog.Application.csproj" />
+    <ProjectReference Include="..\Catalog.Infrastructure\ECommerce.Catalog.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\ServiceDefaults\ECommerce.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Shared.Messaging\ECommerce.Shared.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>

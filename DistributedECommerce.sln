@@ -1,0 +1,65 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+
+# Aspire Projects
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.AppHost", "src\AppHost\ECommerce.AppHost.csproj", "{A1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ServiceDefaults", "src\ServiceDefaults\ECommerce.ServiceDefaults.csproj", "{A2222222-2222-2222-2222-222222222222}"
+EndProject
+
+# API Gateway
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ApiGateway", "src\ApiGateway\ECommerce.ApiGateway.csproj", "{B1111111-1111-1111-1111-111111111111}"
+EndProject
+
+# Catalog Microservice
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog.Domain", "src\Services\Catalog\Catalog.Domain\ECommerce.Catalog.Domain.csproj", "{C1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog.Application", "src\Services\Catalog\Catalog.Application\ECommerce.Catalog.Application.csproj", "{C2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog.Infrastructure", "src\Services\Catalog\Catalog.Infrastructure\ECommerce.Catalog.Infrastructure.csproj", "{C3333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog.API", "src\Services\Catalog\Catalog.API\ECommerce.Catalog.API.csproj", "{C4444444-4444-4444-4444-444444444444}"
+EndProject
+
+# Ordering Microservice
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Ordering.Domain", "src\Services\Ordering\Ordering.Domain\ECommerce.Ordering.Domain.csproj", "{D1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Ordering.Application", "src\Services\Ordering\Ordering.Application\ECommerce.Ordering.Application.csproj", "{D2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Ordering.Infrastructure", "src\Services\Ordering\Ordering.Infrastructure\ECommerce.Ordering.Infrastructure.csproj", "{D3333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Ordering.API", "src\Services\Ordering\Ordering.API\ECommerce.Ordering.API.csproj", "{D4444444-4444-4444-4444-444444444444}"
+EndProject
+
+# Payment Microservice
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Payment.API", "src\Services\Payment\Payment.API\ECommerce.Payment.API.csproj", "{E1111111-1111-1111-1111-111111111111}"
+EndProject
+
+# Notification Microservice
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Notification.API", "src\Services\Notification\Notification.API\ECommerce.Notification.API.csproj", "{F1111111-1111-1111-1111-111111111111}"
+EndProject
+
+# AI Agents Microservice
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.AI.Agents.API", "src\Services\AI.Agents\AI.Agents.API\ECommerce.AI.Agents.API.csproj", "{G1111111-1111-1111-1111-111111111111}"
+EndProject
+
+# Shared Libraries
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Shared.Contracts", "src\Shared\Shared.Contracts\ECommerce.Shared.Contracts.csproj", "{H1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Shared.Messaging", "src\Shared\Shared.Messaging\ECommerce.Shared.Messaging.csproj", "{H2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Shared.Infrastructure", "src\Shared\Shared.Infrastructure\ECommerce.Shared.Infrastructure.csproj", "{H3333333-3333-3333-3333-333333333333}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

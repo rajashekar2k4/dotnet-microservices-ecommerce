@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="8.0.0" />
+    <PackageReference Include="Aspire.Hosting.Kafka" Version="8.0.0" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceDefaults\ECommerce.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Services\Catalog\Catalog.API\ECommerce.Catalog.API.csproj" />
+    <ProjectReference Include="..\Services\Ordering\Ordering.API\ECommerce.Ordering.API.csproj" />
+    <ProjectReference Include="..\Services\Payment\Payment.API\ECommerce.Payment.API.csproj" />
+    <ProjectReference Include="..\Services\Notification\Notification.API\ECommerce.Notification.API.csproj" />
+    <ProjectReference Include="..\Services\AI.Agents\AI.Agents.API\ECommerce.AI.Agents.API.csproj" />
+    <ProjectReference Include="..\ApiGateway\ECommerce.ApiGateway.csproj" />
+  </ItemGroup>
+
+</Project>
